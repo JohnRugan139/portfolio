@@ -1,16 +1,26 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
+import head from '../images/head.png';
+import saiyan from '../images/saiyan.png';
 ---
 
 <Layout title="JR-About">
     <main>
         <Header/>
+		
         <p class="instructions">
-            Developing programmer mainly using Java, Python, C/C++. Learning LISP.
-		Interested in collaboration. Interested in fun projects or anything that can pad out my portfolio.
-		Fast learner. Interested in Philosophy, Science Fiction, retro video games and retro tech in general.
-        </p>
+			<img src={head} width="120" alt="Head"/>
+			<img src={saiyan} width="120" alt="saiyan"/>
+			<br>Developing programmer mainly using Java, Python, C/C++. Learning LISP.
+			Interested in collaboration. Interested in fun projects or anything that can pad out my portfolio.
+			Fast learner. Interested in Philosophy, Science Fiction, retro video games and retro tech in general.
+				
+			
+			
+		</p>
+		
+	
 
 
     </main>
